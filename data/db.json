@@ -1,0 +1,34 @@
+{
+  "blogs": [
+    {
+      "title": "Hard refreshing the page in React",
+      "body": "First, we will see how to reload the whole page. Update the App.js with the following code:",
+      "author": "",
+      "id": 18
+    },
+    {
+      "title": "Soft reloading the component when the state is changed",
+      "body": "As you can see from the above example, when we call window.location.reload(), the whole page reloads and downloads all the resources (css, js, etc) from the server. This may not be a great user experience, especially on slower networks.\n\nWe can reload only the components that need to be refreshed by updating the state.\n\nConsider the following code:",
+      "author": "",
+      "id": 19
+    },
+    {
+      "title": "Refresh a Page Using JavaScript",
+      "body": "The first way of refreshing a page or component is to use vanilla JavaScript to call the reload method to tell the browser to reload the current page:\nThis method takes an optional parameter which by default is set to false. If set to true, the browser will do a complete page refresh from the server and not from the cached version of the page.\n\nLet’s take a look at how to use the location.reload method inside of a React component:",
+      "author": "",
+      "id": 20
+    },
+    {
+      "title": "Updating the State",
+      "body": "The second, and more appropriate method of refreshing a page in React, is to update the state inside of the React component.\n\nReact is a modern JavaScript library and therefore does not require a page refresh to display the latest data in the UI.",
+      "author": "Wasi",
+      "id": 21
+    },
+    {
+      "title": "How to Refresh Pages in React ",
+      "body": "This works exactly like a refresh button. Notice that we passed true to the reload method. This is a non-standard feature that is only supported in Firefox. It tells the browser to bypass the cache and do a force reload.",
+      "author": "Qari",
+      "id": 22
+    }
+  ]
+}
